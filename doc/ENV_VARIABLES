@@ -1,0 +1,12 @@
+Amazon s3 variables, Run:
+
+heroku config:add AWS_ACCESS_KEY_ID="XXXXXXXXX"
+heroku config:add AWS_SECRET_ACCESS_KEY="XXXXXXXXXXXXXXXX"
+heroku config:add S3_BUCKET_NAME="XXXXXXX"
+
+Run:
+$ heroku addons:add mandrill
+To generate the following env vars in heroku.
+
+MANDRILL_USERNAME
+MANDRILL_APIKEY
